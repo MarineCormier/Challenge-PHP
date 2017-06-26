@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Challenge PHP</title>
 </head>
 <body>
@@ -20,7 +20,7 @@ $viandes = ["Poulet","Boeuf","Mouton"];
 $cuissons = ["à point", "saignant", "bleu", "bien cuit"];
 $viandes = ["poulet", "boeuf", "mouton"];
 
-include "exo1.php";
+include "exercices/exo1.php";
 print_r (exo1($cuissons, $viandes));
 ?>
 
@@ -34,7 +34,7 @@ $genres = "horreur fantastique action western thriller comédie drame romance hi
 
 $genres = "horreur fantastique action western thriller comédie drame romance historique";
 
-include "exo2.php";
+include "exercices/exo2.php";
 print_r (exo2($genres));
 ?>
 
@@ -49,7 +49,7 @@ $fruits = ["orange", "banane", "pomme", "fraise", "tomate", "framboise", "noix d
 
 $fruits = ["orange", "banane", "pomme", "fraise", "tomate", "framboise", "noix de coco", "ananas"];
 
-include "exo3.php";
+include "exercices/exo3.php";
 print_r (exo3($fruits));
 ?>
 
@@ -63,7 +63,8 @@ $prenoms = ["Harry", "Hilary", "Harrington", "Hagrid", "Holmes"];
 <?php 
 
 $prenoms = ["Harry", "Hilary", "Harrington", "Hagrid", "Holmes"];
-include "exo4.php";
+
+include "exercices/exo4.php";
 print_r(exo4($prenoms));
 ?>
 
